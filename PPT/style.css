@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    min-height: 80px;
+    background-color: aqua;
+    background-color: #7b6ada;
+    border:1px double black;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    align-items: center;   
+}
+.Heading{
+    padding-left: 50px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.About ul {
+    display: flex;
+    justify-content: space-around;
+    gap:40px;
+    color:white;
+    font-size: 20px;
+}
+.About{
+    padding-top:20px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+li{
+    list-style: none;;
+}
+.Heading h1{
+    font-size: 40px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    transition: 0.2s ease-in;
+}
+.About ul li{
+    border-bottom: 2px solid transparent;
+    font-family:Poppins;
+    border-radius: 10px;
+    background-color: rgba(0,0,transparent,0.4);
+    padding: 5px;
+    cursor: pointer;
+}
+.About ul li:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-out;
+    border-radius: 10px;
+    background-color: rgba(149, 149, 243, 0.4);
+}
+.hero_sec{
+    padding:50px;
+    min-height:100vh;
+    background-color: #7b6ada;
+    display: flex;
+    justify-content: center;
+    gap:100px;
+}
+.image1{
+    padding: 25px;
+    margin-top:100px;
+    height:200px;
+    width:250px;
+    background-size: cover;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: 5px double black;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    transition:0.2s ease-in;
+}
+.image2{
+    padding:25px;
+    margin-top:100px;
+    height: 200px;
+    width:250px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border:5px double black;
+    display: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    transition: 0.2s ease-in;
+
+
+}
+#h1{
+    font-size: 100px;
+}
+.image1 p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif
+   
+} 
+.image2 p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.image1:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    align-self: start;
+}
+.image2:hover{
+    transform:scale(1.05);
+    transition:0.2s ease-out;
+    cursor: pointer;
+    align-self: start;
+}
+
+
