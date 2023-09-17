@@ -123,5 +123,176 @@ li{
     cursor: pointer;
     align-self: start;
 }
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7b6ada;
+    height:100vh;
+}
+.login_sec{
+    background-color: white;
+    height:500px;
+    width:400px;
+    border: 2px black rgb(3, 9, 19);
+    border-radius: 8px;
+    padding-top: 40px;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+.signup{
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.signup input{
+    padding: 3px;
+    height:30px;
+    width:350px;
+}
+.signup p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signup-email{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+.signup-pass{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+.sign{
+    margin:20px 10px;
+    padding-top:10px; ;
+    height:45px;
+    width:330px;
+    background-color: rgb(224, 15, 127);
+    color:white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    transition: 0.2s ease-in;
+}
+.social_media{
+    margin: 25px;;
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+.google i{
+    font-size: 20px;
+    color:rgb(223, 10, 46);
+}
+.facebook i{
+    font-size: 20px;
+    color:rgb(75, 75, 244)
+}
+.linkedin i{
+    font-size: 20px;
+    color: blue;
+}
+.already{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sign:hover{
+    transform: scale(1.02);
+    transition: 0.2s ease-out;
+}
+/* ChatBot Starts */
+.Chatbot{
+    background-color: #7b6ada;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.chatbot_sec{
+    height:100vhpx;
+    width:600px;
+    background-color:rgb(50, 45, 45)
+}
+.nav{
+    display:flex;
+    gap:20px;
+    padding:20px 0px;
+    padding-left: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    
+}
+.Bot_img img{
+    border-radius: 50%;
+}
+.chat11{
+    
+    max-height:100px;
+    height:auto;
+    max-width:450px;
+    width:auto;
+    background-color:rgba(0,67,233, 255);
+    color:white;
+    border-radius: 10px;
+    align-items: right;
+    padding: 10px;
+}
+.chat_end{
+    display: flex;
+    justify-content: flex-end;
+}
+.chats{
+    padding: 20px;;
+}
+.chat_begin{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;;
 
+}
+.end{
+    display: flex;
+    justify-content: end;
+    color:white;
+}
+pre{
+    font-family:cursive;
+}
+.footer input{
+    padding:10px;
+    width:560px;
+    height:40px;
+    border-radius:5px;
+}
+.footer{
+    display:flex;
+    gap:2px;
+}
+.chat1_1{
+    max-height:100px;
+    height:auto;
+    max-width:450px;
+    width:auto;
+    background-color:rgba(0,67,233, 255);
+    color:white;
+    border-radius: 10px;
+    align-items: right;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+.footer button{
+    padding:6px;
+}
+.bot_head h1{
+    color:white;
+}
+.bot_head p{
+    color:white;
+}
+.para{
+    color:white;
+
+}
